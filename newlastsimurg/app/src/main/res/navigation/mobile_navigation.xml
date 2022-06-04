@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_sorular">
+
+    <fragment
+        android:id="@+id/nav_profil"
+        android:name="com.simurgeducation.newlastsimurg.ui.profil.ProfilFragment"
+        android:label="@string/menu_profil"
+        tools:layout="@layout/fragment_profil" >
+        <argument
+            android:name="intentuuid"
+            app:argType="string"
+            android:defaultValue='45' />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_sorular"
+        android:name="com.simurgeducation.newlastsimurg.ui.sorular.SorularFragment"
+        android:label="@string/menu_sorular"
+        tools:layout="@layout/fragment_sorular" >
+        <action
+            android:id="@+id/action_nav_sorular_to_nav_profil"
+            app:destination="@id/nav_profil" >
+            <argument
+                android:name="intentuuid"
+                android:defaultValue="1357" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_bildirim"
+        android:name="com.simurgeducation.newlastsimurg.ui.bildirim.BildirimFragment"
+        android:label="@string/menu_bildirim"
+        tools:layout="@layout/fragment_bildirim" />
+
+    <fragment
+        android:id="@+id/nav_takip"
+        android:name="com.simurgeducation.newlastsimurg.ui.takipedilenler.TakipFragment"
+        android:label="@string/menu_takip"
+        tools:layout="@layout/fragment_bildirim" />
+
+    <fragment
+        android:id="@+id/nav_siralama"
+        android:name="com.simurgeducation.newlastsimurg.ui.siralama.SiralamaFragment"
+        android:label="@string/menu_siralama"
+        tools:layout="@layout/fragment_siralama" />
+</navigation>

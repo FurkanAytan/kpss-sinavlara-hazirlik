@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/re"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/deneme"
+    android:orientation="vertical">
+
+    <ImageView
+        android:minHeight="100dp"
+        android:minWidth="100dp"
+        android:id="@+id/recrylerImageView"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/recyler_row_bottom_content"
+        android:gravity="center|left"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recrylerImageView"
+        tools:layout_editor_absoluteX="10dp">
+
+        <ImageView
+            android:id="@+id/questionchecktv"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="40dp"
+            app:srcCompat="@drawable/ckechk" />
+
+        <ImageView
+            android:id="@+id/followquestionbtn"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/fallow" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ProfileImageView"
+            android:layout_width="54dp"
+            android:layout_height="30dp"
+            android:src="@drawable/profile"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/profiletexttv"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginRight="40dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="#f9aa33"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

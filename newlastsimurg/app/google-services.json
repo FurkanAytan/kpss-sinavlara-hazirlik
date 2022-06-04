@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "202834457224",
+    "project_id": "simurglastnew",
+    "storage_bucket": "simurglastnew.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202834457224:android:c570fc84178079349f653d",
+        "android_client_info": {
+          "package_name": "com.simurgeducation.newlastsimurg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202834457224-mdg6jo1cdcajh5r6meve3f84qb0j08f9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6Ti9XtsSBqduYrAt_BRCFJX57vam_9is"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202834457224-mdg6jo1cdcajh5r6meve3f84qb0j08f9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/themecolor4"
+    tools:context=".ui.UploadActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@color/themecolor1"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_weight="2" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_weight="2" />
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_weight="2" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ProfileImageView"
+        android:layout_width="237dp"
+        android:layout_height="173dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout8"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <EditText
+        android:id="@+id/uploadcommenttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="soru hakkındaki yorumunuz..."
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ProfileImageView" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:onClick="uploadbtn"
+        android:text="yükle"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout7" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="409dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uploadcommenttext">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="CEVABI GİRİNİZ"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:onClick="cevapanahtar"
+                android:text="A"
+                android:textColor="@color/white" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:onClick="cevapanahtar"
+                android:text="B"
+                android:textColor="@color/white" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:onClick="cevapanahtar"
+                android:text="C"
+                android:textColor="@color/white" />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:onClick="cevapanahtar"
+                android:text="D"
+                android:textColor="@color/white" />
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:onClick="cevapanahtar"
+                android:text="E"
+                android:textColor="@color/white" />
+
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:onClick="cevapanahtar"
+                android:text="Bilinmiyor"
+                android:textColor="@color/themecolor1" />
+
+            <CheckBox
+                android:id="@+id/checkBox7"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:onClick="cevapanahtar"
+                android:text="Cevap Gir"
+                android:textColor="@color/themecolor1" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/anahtarplaintext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+           android:paddingRight="10dp"
+            android:hint="Cevapbınız şıklı değilse buraya girebilirseniz"
+            android:inputType="textPersonName"
+            android:onClick="cevapanahtar"
+            android:textColor="@color/white"
+            android:textColorHint="@color/themecolor1" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@drawable/prifile_icon"
+            android:title="@string/menu_profil" />
+        <item
+            android:id="@+id/nav_sorular"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_sorular" />
+        <item
+            android:id="@+id/nav_bildirim"
+            android:icon="@drawable/bildirim_icon"
+            android:title="@string/menu_bildirim" />
+        <item
+            android:id="@+id/nav_siralama"
+            android:icon="@drawable/siralama_icon"
+            android:title="@string/menu_siralama" />
+        <item
+            android:id="@+id/nav_takip"
+            android:icon="@drawable/takip_icon"
+            android:title="@string/menu_takip" />
+        <!--
+<item
+    android:id="@+id/nav_slideshow3"
+    android:icon="@drawable/ic_menu_slideshow"
+    android:title="@string/odul" />
+<item
+    android:id="@+id/nav_slideshow4"
+    android:icon="@drawable/ic_menu_slideshow"
+    android:title="@string/gorev" />
+<item
+    android:id="@+id/nav_slideshow5"
+    android:icon="@drawable/ic_menu_slideshow"
+    android:title="@string/ulas" />
+<item
+    android:id="@+id/nav_slideshow6"
+    android:icon="@drawable/ic_menu_slideshow"
+    android:title="@string/ayarlar" />
+<item
+    android:id="@+id/nav_slideshow7"
+    android:icon="@drawable/ic_menu_slideshow"
+    android:title="@string/cıkıs" />
+         -->
+    </group>
+</menu>

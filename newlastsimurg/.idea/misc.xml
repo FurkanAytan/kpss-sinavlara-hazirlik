@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3725" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/drawable/deneme.xml" value="0.136" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3725" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/drawable/ic_menu_camera.xml" value="0.201" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.201" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.201" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/drawable/recyler_row_bottom_content.xml" value="0.136" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/drawable/side_nav_bar.xml" value="0.201" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/layout/activity_cevaplama.xml" value="0.33" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/layout/activity_kayit.xml" value="0.33" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/layout/activity_photo.xml" value="0.371875" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/layout/activity_takip_takipci.xml" value="0.371875" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/layout/activity_upload.xml" value="0.371875" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/layout/app_bar_main.xml" value="0.371875" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/layout/content_main.xml" value="0.371875" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/layout/fragment_bildirim.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/layout/fragment_gallery.xml" value="0.371875" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/layout/fragment_home.xml" value="0.19322916666666667" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/layout/fragment_keko.xml" value="0.371875" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/layout/fragment_profil.xml" value="0.371875" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/layout/fragment_siralama.xml" value="0.33" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/layout/fragment_slideshow.xml" value="0.371875" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/layout/fragment_sorular.xml" value="0.33" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/layout/fragment_sorusor.xml" value="0.371875" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/layout/fragment_takip.xml" value="0.33" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/layout/nav_header_main.xml" value="0.371875" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/layout/recyler_cevaplama_row.xml" value="0.371875" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/layout/recyler_low.xml" value="0.33" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/layout/recyler_profil_row.xml" value="0.371875" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/layout/recyler_siralama_row.xml" value="0.371875" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/layout/recyler_takip_row.xml" value="0.371875" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/layout/recyler_takip_takipci.xml" value="0.371875" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/layout/recyler_view_row.xml" value="0.33" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/menu/activity_main_drawer.xml" value="0.371875" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/menu/main_activity2.xml" value="0.371875" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.201" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg2/app/src/main/res/layout/fragment_siralama.xml" value="0.371875" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg2/app/src/main/res/layout/fragment_slideshow.xml" value="0.371875" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg2/app/src/main/res/layout/nav_header_main.xml" value="0.371875" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg2/app/src/main/res/menu/activity_main_drawer.xml" value="0.371875" />
+        <entry key="..\:/Users/Simurg/AndroidStudioProjects/newlastsimurg2/app/src/main/res/menu/main_activity2.xml" value="0.371875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
